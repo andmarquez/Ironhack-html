@@ -3,18 +3,19 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+   
 }
 
 
 h1 {
-    color: blue;
+    color: rgb(255, 255, 255);
     font-size: 4.5em;
     
 }
 
 h2 {
     color:red;
-    font-weight: 500;
+    font-weight: 500;s
 }
 
 h3 {
@@ -48,6 +49,26 @@ p {
     font-weight: 500;
 }
 
+a:link {
+text-decoration: none;
+}
+
+a:active {
+text-decoration: underline;
+color: magenta;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+a:visited {
+
+}
+
+
 /*style text ends*/
 
 ul {
@@ -60,6 +81,103 @@ li {
     padding: 1em;
 }
 
+section {
+    height: 600px;
+    padding: 2%;
+    /* border: lightcoral 2px solid; */
+    margin: 0px;
+    display: flex;
+   
+}
+
+div{ 
+    display: flex;
+}
+
 header{
     background-color: salmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: lightgrays;
+}
+
+.color_headings {
+    color: lightcoral;
+}
+
+#testimonial {
+    color: rgb(40, 29, 145);
+}
+
+#hero {
+    background-image: url('../img/photo-1605407108047-1e04b744a2cd.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#features {
+    flex-direction: column;
+    text-align: center;
+    background-color: #FED9B7;
+    height: 300px;
+}
+
+#trial {
+    flex-direction: column;
+    align-items: center;
+    background-color: #F07167;
+    height: 200px;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.col-features {
+    
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 30px;
+}
+
+.row-features {
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.col-testimonials {
+    flex-grow: 1;
+}
+
+.col-trial {
+    
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 30px;
+
+
+.logoheader {
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
 }
