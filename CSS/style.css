@@ -87,6 +87,7 @@ section {
     /* border: lightcoral 2px solid; */
     margin: 0px;
     display: flex;
+    margin: o auto
    
 }
 
@@ -137,6 +138,7 @@ input {
     align-items: center;
     background-color: #F07167;
     height: 200px;
+    border-radius: 25px;
 }
 
 .col {
@@ -170,7 +172,7 @@ input {
     align-items: center;
     flex-grow: 1;
     margin-top: 30px;
-
+}
 
 .logoheader {
     height: 100px;
@@ -179,7 +181,72 @@ input {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     padding: 5%;
     flex-direction: column;
 }
+
+.row-footer {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* @media only screen and (min-width:1000px) {
+
+    body {
+        background-color: tomato;
+        
+    }
+    
+    h1 {
+        font-size: 4rem;
+        color: pink;
+    }
+    
+    h2 {
+        color: pink;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:700px) {
+
+    body {
+        background-color: tomato;
+        
+    }
+    
+    h1 {
+        font-size: 2rem;
+        color: pink;
+    }
+    
+    h2 {
+        color: pink;
+    }
+}
+
+
+
+@media only screen and (min-width:375px) {
+
+    body {
+        background-color: tomato;
+        
+    }
+    
+    h1 {
+        font-size: 1rem;
+        color: green;
+    }
+    
+    h2 {
+        color: yellow;
+    }
+} */

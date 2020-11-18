@@ -1,0 +1,56 @@
+/* this is for mobile */
+body {
+    background-color: lime;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+@media only screen and (min-width:600px) {
+
+    body {
+        background-color: tomato;
+        
+    }
+    
+    h1 {
+        
+        color: pink;
+    }
+    
+    h2 {
+        
+    }
+}
+
+
+
+
+@media only screen and (min-width:768px) {
+
+    body {
+        background-color: peru;
+        
+    }
+    
+    h1 {
+        
+        color: plum;
+    }
+    
+    h2 {
+        
+    }
+}
+
